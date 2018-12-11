@@ -55,6 +55,8 @@ def initSubtraction(firstFrame, secondFrame, thirdFrame):
 		# Note: The result is as RGB image, we could use a grayscale instead
 		# Just convert 'foreGround' to a grayscale before apply threshold
 		ret, mask = cv2.threshold(foreGround, 15, 255, cv2.THRESH_BINARY)
+		# Grayscale
+		# gray = cv2.cvtColor(mask, cv2.COLOR_BGR2GRAY)
 
 		cv2.imshow('mask', mask)
 
