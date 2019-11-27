@@ -1,4 +1,4 @@
-# background-subtraction-webcam
+# Background subtraction webcam
 An algorithm that uses your webcam to apply background subtraction
 
 ## Setup
