@@ -14,3 +14,8 @@ pip3 install opencv-python
 ## Getting Started
 ````
 python3 bgs.py
+````
+
+## License
+
+[MIT license](LICENSE)
